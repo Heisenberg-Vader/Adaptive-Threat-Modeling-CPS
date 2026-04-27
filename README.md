@@ -50,7 +50,7 @@ Generated README.txt
     └── adaptive_edge_engine.pt  
 ```
 ---
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * Python 3.8+
