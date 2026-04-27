@@ -1,0 +1,23 @@
+=== Adaptive Threat Model: Final Inference Report ===
+
+                       precision    recall  f1-score   support
+
+             Backdoor       1.00      0.99      1.00      4973
+            DDoS_HTTP       1.00      1.00      1.00      9983
+            DDoS_ICMP       1.00      1.00      1.00     23288
+             DDoS_TCP       1.00      1.00      1.00     10013
+             DDoS_UDP       1.00      1.00      1.00     24314
+       Fingerprinting       0.88      0.92      0.90       201
+                 MITM       0.94      0.90      0.92       243
+               Normal       1.00      1.00      1.00    323080
+             Password       1.00      1.00      1.00     10031
+        Port_Scanning       1.00      1.00      1.00      4513
+           Ransomware       0.99      0.99      0.99      2185
+        SQL_injection       1.00      1.00      1.00     10241
+            Uploading       1.00      1.00      1.00      7527
+Vulnerability_scanner       0.92      1.00      0.96     10022
+                  XSS       0.99      0.99      0.99      3183
+
+             accuracy                           1.00    443797
+            macro avg       0.98      0.99      0.98    443797
+         weighted avg       1.00      1.00      1.00    443797
